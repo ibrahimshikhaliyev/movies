@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500,600,700,800&family=Prompt:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+body{
+    background-color: #281a1a;
+}
+/* ####   message card is the landing card ########## */
+.message-card{
+    border:1px solid white;
+    width:800px;
+    height: 450px;
+    margin:100px auto;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.envelope-icon{
+    font-size:200px;
+    margin:130px 120px;
+}
+/* ######### form for contact ####### */
+.message-form{
+    padding-top:20px;
+    width:400px;
+    height:340px;
+    margin-top:-430px;
+    margin-left: 370px;
+}
+/* # get in touch text */
+.message-form p{
+    margin-left: 103px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size:18px;
+}
+/* all input of form  */
+.message-form input{
+    
+    margin: 8px 100px;
+    height:30px;
+    width:240px;
+    border: 0px ;
+    border-radius: 100px ;
+    background-color:rgb(222, 219, 219);
+    padding-left:35px;
+}
+.message-form input:focus{
+   
+    outline: none;
+}
+.message-icons{
+    position: absolute;
+    font-size:18px;
+    margin-top:-33px;
+    margin-left:108px;
+}
+
+/* the message text area */
+#message-user-message{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    margin: 8px 100px;
+    background-color:rgb(222, 219, 219);
+    border: 0px ;
+    border-radius: 10px ;
+    height:120px;
+    width:245px;
+    padding:10px 15px;
+}
+#message-user-message:focus{
+    outline: none;
+}
+/* the submit button */
+#message-submit{
+    background-color:#281a1a;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size:14px;
+    width:275px;
+}
+
