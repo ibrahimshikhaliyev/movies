@@ -29,6 +29,7 @@ body{
     font-size: 20px;
     color:white;
     opacity:1;
+    cursor:pointer;
 }
 .nav-top-button{
     margin:15px 20px;
@@ -73,6 +74,9 @@ body{
     transition:.5s;
     background-color: transparent;
 }
+.input-for-search::placeholder{
+    color:black;
+}
 .form-for-searching:hover .input-for-search {
     width:200px;
     border-bottom: 1px solid white;
@@ -80,9 +84,13 @@ body{
     border-left:0px;
     border-right:0px;
     background: transparent;
-    color:white
+    color:white;
+   
 }
-
+.form-for-searching:hover .input-for-search::placeholder {
+    color:grey;
+   
+}
 .input-for-search:focus{
     width:200px;
     border-bottom: 1px solid  white;
@@ -321,8 +329,9 @@ img {vertical-align: middle;height:520px;width:400px}
 }
 .photos-item img{
     height:100%;
-    width:100%;
+    width:100%; 
 }
+
 .photo-caption{
     color:white;
     font-family: 'Dancing Script', cursive;

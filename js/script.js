@@ -8,6 +8,8 @@ const passwordIputLogIn=document.querySelector('#password-log-in');
 const cancelIcon=document.querySelectorAll('.register-cancel-icon');
 const photosCards=document.querySelector('.photos-card');
 const hobbieBtns=document.querySelectorAll('.hobbie-btn');
+const homeBtn= document.querySelector('#home-btn');
+const logoText= document.querySelector('#logo');
 // ### open logIn card ###
 
 
@@ -112,6 +114,16 @@ hobbieBtns[0].addEventListener('click' ,e=>{
   photosCards.style.display="grid";
 })
 
+//  ##### home btn , scroll to the home while clicking on "home " btn
+
+homeBtn.addEventListener('click' ,e=>{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+})
 
 
-
+// scroll to the top when clicking on the logo "shikhaliyevv" 
+logoText.addEventListener('click' ,e=>{
+  document.body.scrollTop=0;// for safari
+  document.documentElement.scrollTop=0;// for chorome , firefox , opera
+})

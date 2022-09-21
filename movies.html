@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/movies.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Movie</title>
+
+
+</head>
+
+<body>
+  <!--######## the first  CAROUSEL with bootstrap ######-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://i2.wp.com/sodasandpopcorn.ng/wp-content/uploads/2021/02/Se7en.jpg?fit=1280%2C720&ssl=1" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://media.npr.org/assets/img/2019/11/25/ko-d10-04517-r_slide-24569122abd76024bfb9b2688da69b06468c4d62.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://image.tmdb.org/t/p/w1280/n9eeQTNHY6Ry80QbDGygIupL0Z9.jpg" alt="Third slide">
+      </div>
+    </div>
+    
+  </div>
+
+<!-- ######## MOVIE slider ####-->
+  <div class="movie-card-slider">
+    <button id="arrow-left" class="slider-navigator-btn">&#10094</button>
+    <div class="slides" id="slide-one">
+      <div class="movie-card-slider-items">
+        <img src="/image/81mpbHvcdLL._RI_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg" alt="">
+        <p>9.1</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+    </div>
+
+    <div class="slides" id="slide-two">
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BNTVkMTFiZWItOTFkOC00YTc3LWFhYzQtZTg3NzAxZjJlNTAyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+    </div>
+
+    <div class="slides" id="slide-three">
+      <div class="movie-card-slider-items">
+        <img src="/image/MV5BZDIzNDZiMWYtMzc4NS00MTQyLThlY2ItZjI1MWIzMWQ2NTkxXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/Seven-498520078-large.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/unnamed (1).jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+      <div class="movie-card-slider-items">
+        <img src="/image/unnamed.jpg" alt="">
+        <p>9.2</p>
+        <i class="bi bi-heart-fill like"></i>
+        <button class="trailer"></button>
+      </div>
+    </div>
+    <div class="dots-indicators">
+      <i class="bi bi-circle-fill dots active" ></i>
+      <i class="bi bi-circle-fill dots passive"></i>
+      <i class="bi bi-circle-fill dots passive"></i>
+    </div>
+    <button id="arrow-right" class="slider-navigator-btn">&#10095</button>
+  </div>
+  
+ 
+<!--##### IMDB TOP 10 MOVIES #########-->
+<div class="rating-container">
+  <div class="rating-container-header">
+    <div class="rating-header-card">
+      
+      <p>IMDb top 10 TV-shows of all time</p></div>
+    </div>
+    
+  <div class="rating-cards-wrapper">
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">1</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Game of Thrones</b> (2011)</p>
+          <p><b>Rating: </b>  9.3</p>
+          <p><b>Genre: </b> Action,Fantasy, Drama</p>
+          <p><b>Creator: </b> David Benioff</p>
+          <p><b>Stars: </b> Emilia Clarke, Kit Harington, Sophie Turner</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">2</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BODFhZjAwNjEtZDFjNi00ZTEyLThkNzUtMjZmOWM2YjQwODFmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_FMjpg_UX1000_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Breaking Bad</b> (2016)</p>
+          <p><b>Rating: </b>  9.3</p>
+          <p><b>Genre: </b> Crime,Drama,Thriller</p>
+          <p><b>Creator: </b> Vince Gilligan</p>
+          <p><b>Stars: </b> Bryan Cranston, Aaron Paul, Anna Gunn</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">3</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Friends</b> (2011)</p>
+          <p><b>Rating: </b>  <span>&#8734;</span></p>
+          <p><b>Genre: </b> Comedy</p>
+          <p><b>Creator: </b>  Marta Kauffman</p>
+          <p><b>Stars: </b> Janifer Aniston, Courteney Cox, Matthew Perry</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">4</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BN2U2NTI4NzQtMjRkMy00ZGJhLWJmNTYtZGI0YmE0ZmJjZjg5XkEyXkFqcGdeQXVyMTAzOTAxMzg4._V1_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Peaky Blinders</b> (2011)</p>
+          <p><b>Rating: </b>  8.8</p>
+          <p><b>Genre: </b> Historical fiction, Crime drama</p>
+          <p><b>Creator: </b>  Otto Bathurst </p>
+          <p><b>Stars: </b> Cillian Murphy, Helen MacCrory, Paul Anderson</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">5</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTkwOGYwZDMtMTViYi00MGU2LWE0MTMtNjM1YTExYTY2YjliL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTUwMTIyODg@._V1_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Vikings</b> (2011)</p>
+          <p><b>Rating: </b>  8.5</p>
+          <p><b>Genre: </b> Historical,Adventure, Drama</p>
+          <p><b>Creator: </b> Michael Hirst </p>
+          <p><b>Stars: </b> Travis Fimmel, Katheryn Winnick, Alexander Ludwig</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Ragnar Lothbrok, a legendary Norse hero, is a mere farmer who rises up to become a fearless warrior and commander of the Viking tribes with the support of his equally ferocious family.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">6</div>
+        <img src="https://cdn.europosters.eu/image/750/posters/stranger-things-summer-of-85-i76122.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Stranger Things</b> (2011)</p>
+          <p><b>Rating: </b>  8.3</p>
+          <p><b>Genre: </b> Horror</p>
+          <p><b>Creator: </b> The Duffer Brothers</p>
+          <p><b>Stars: </b> Finn Wolfhard, Millie Bobby Brown, Noah Schnapp</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">7</div>
+        <img src="https://i.pinimg.com/originals/b1/e6/8f/b1e68f89bc7b8ff2e56a2c1860ad9313.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Luicfer</b> (2016)</p>
+          <p><b>Rating: </b>  8.1</p>
+          <p><b>Genre: </b> Mystery,Detective,Comedy</p>
+          <p><b>Creator: </b> Tom Kapinos</p>
+          <p><b>Stars: </b> Tom Ellis, Lauren German, Kevin Alejandro</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>Based on characters created by Neil Gaiman, Sam Kieth and Mike Dringenberg, this series follows Lucifer, the original fallen angel, who has become dissatisfied with his life in hell. After abandoning his throne and retiring to Los Angeles, Lucifer indulges in his favorite things </p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">8</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BM2ZmYjUxZDYtMmZlMi00YjlkLTkwNTItMjcxZDRlOTI3ZTNmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>The Spy</b> (2019)</p>
+          <p><b>Rating: </b>  7.9</p>
+          <p><b>Genre: </b> Drama, Espionage thriller</p>
+          <p><b>Creator: </b> Gideon Raff</p>
+          <p><b>Stars: </b> Sacha Baron Cohen, Yael Eitan, Hadar Ratzon-Rotem</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>This drama tells the astonishing true story of Israel's most prominent spy, Eli Cohen, who infiltrated the Syrian government in the 1960s.
+        </p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">9</div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcEazg1RHMebusfpj_3nR8f-d_CgNLxAc0Wm9foVDza9M4hKcf" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>Money Heist</b> (2017)</p>
+          <p><b>Rating: </b>  8.2</p>
+          <p><b>Genre: </b> Crime, Comedy ,Drama</p>
+          <p><b>Creator: </b> Álex Pina</p>
+          <p><b>Stars: </b> Álvaro Morte , Úrsula Corberó, Pedro Alonso</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to loseMoney Heist</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-card-image">
+        <div class="number-tv-shows">10</div>
+        <img src="https://m.media-amazon.com/images/I/71VSM0cVnxL._SY445_.jpg" alt="">
+      </div>
+      <div class="rating-card-content">
+        <div class="first-section ">
+          <p><b>The Last Kingdom</b> (2015)</p>
+          <p><b>Rating: </b>  8.5</p>
+          <p><b>Genre: </b> Historical drama</p>
+          <p><b>Creator: </b> Bernard Cornwell</p>
+          <p><b>Stars: </b> Alexander Dreymon, Eliza Butterworth, Arnas Fedaravicius</p>
+        </div>
+        
+      </div>
+      <div class="second-section">
+        <h5 style="color:white"><b>Briefly:</b></h5>
+        <p>During their invasion of England, the Danes capture Uhtred, a young successor of Saxon earldom, and raise him as their own. Years later, Uhtred's loyalties are put to the test by the Danes.</p>
+        <h5 style="color:white"><b>Awards:</b></h5>
+        <p>Emmy Awards , Golden Globe Awards, Screen Actors Guild Awards , Saturn Awards,  Satellite Awards  </p>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="attribution">
+
+  Coded by <a href="#">shikhaliyevv</a>.
+</div>
+   
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/movies.js"></script>
+
+ 
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Prompt:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+body{
+    background-image: url(/image/pexels-brooke-lewis-3972269.jpg);
+    background-size:100%;
+}
+
+.about-card {
+    margin:120px 18%;
+    width:950px;
+}
+.about-card h1{
+    font-size:50px;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-weight:bolder;
+}
+
+.about-card p{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-weight:500;
+    font-size:19px;
+}
